@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
-<?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Les Contemplations</title>
+        <title>Hugo, les Contemplations</title>
         <author key="Hugo, Victor">Hugo, Victor</author>
       </titleStmt>
       <publicationStmt>
@@ -17,6 +17,9 @@
       </sourceDesc>
     </fileDesc>
     <profileDesc>
+      <creation>
+        <date when="1856"/>
+      </creation>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
